@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "name": "answers",
+  "version": "1.0.0",
+  "main": "01-intro.js",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "debug": "^4.4.3",
+    "ignore-by-default": "^1.0.1",
+    "minimatch": "^3.1.2",
+    "pstree.remy": "^1.1.8",
+    "semver": "^7.7.3",
+    "simple-update-notifier": "^2.0.0",
+    "supports-color": "^5.5.0",
+    "touch": "^3.1.1",
+    "undefsafe": "^2.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon prompter.js",
+    "start": "node prompter.js"
+  },
+  "author": "lily meyer",
+  "license": "ISC",
+  "description": ""
+}
